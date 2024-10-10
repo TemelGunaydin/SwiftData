@@ -12,6 +12,8 @@
 		AB2FDC652CB8013800DE73F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2FDC642CB8013800DE73F9 /* Assets.xcassets */; };
 		AB2FDC682CB8013800DE73F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2FDC672CB8013800DE73F9 /* Preview Assets.xcassets */; };
 		AB2FDC712CB801D100DE73F9 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FDC702CB801D100DE73F9 /* PersonModel.swift */; };
+		AB2FDC732CB8076300DE73F9 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FDC722CB8076300DE73F9 /* FriendModel.swift */; };
+		AB2FDC752CB80A1E00DE73F9 /* MockData_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FDC742CB80A1E00DE73F9 /* MockData_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AB2FDC642CB8013800DE73F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2FDC672CB8013800DE73F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB2FDC702CB801D100DE73F9 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		AB2FDC722CB8076300DE73F9 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		AB2FDC742CB80A1E00DE73F9 /* MockData_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				AB2FDC702CB801D100DE73F9 /* PersonModel.swift */,
+				AB2FDC722CB8076300DE73F9 /* FriendModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				AB2FDC622CB8013700DE73F9 /* FirstExampleView.swift */,
+				AB2FDC742CB80A1E00DE73F9 /* MockData_Intro.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2FDC712CB801D100DE73F9 /* PersonModel.swift in Sources */,
+				AB2FDC732CB8076300DE73F9 /* FriendModel.swift in Sources */,
 				AB2FDC632CB8013700DE73F9 /* FirstExampleView.swift in Sources */,
+				AB2FDC752CB80A1E00DE73F9 /* MockData_Intro.swift in Sources */,
 				AB2FDC612CB8013700DE73F9 /* FirstExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

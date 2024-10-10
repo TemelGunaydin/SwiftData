@@ -29,8 +29,10 @@ struct FirstExampleView: View {
         
     }
 }
-
+//We want to prevent compile errors when archiving our app.
+#if DEBUG
 #Preview {
     FirstExampleView()
         .modelContainer(for: PersonModel.self)
 }
+#endif
