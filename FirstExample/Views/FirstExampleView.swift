@@ -6,16 +6,19 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct FirstExampleView: View {
+    
+    @Environment(\.modelContext) private var modelContext
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Button("Add Person") {
+            let name = ["Mark","Lem","Chase"].randomElement()!
+            let person = PersonModel(name: name)
+            modelContext.insert(person)
         }
-        .padding()
+        .font(.title)
     }
 }
 
