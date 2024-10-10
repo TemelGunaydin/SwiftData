@@ -32,4 +32,5 @@ struct FirstExampleView: View {
 
 #Preview {
     FirstExampleView()
+        .modelContainer(for: PersonModel.self)
 }
